@@ -1,0 +1,26 @@
+{
+  "name": "jsonify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/god-s-perfect-idiot/jsonify.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/god-s-perfect-idiot/jsonify/issues"
+  },
+  "homepage": "https://github.com/god-s-perfect-idiot/jsonify#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.0",
+    "request": "^2.88.2"
+  }
+}
