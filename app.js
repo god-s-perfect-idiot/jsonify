@@ -26,6 +26,6 @@ app.post('/', async (req, res, next) => {
     }
 })
 
-app.listen('9991', () => {
-    console.log('server at 9991')
+app.listen('80', () => {
+    console.log('server at 80')
 })
