@@ -1,0 +1,12 @@
+application:
+  name: "jsonify"
+  project: "jsonify"
+  organization: "Samar"
+  publicly_accessible: true
+  port: 3000
+routers:
+- name: "jsonify"
+  routes:
+  - application_name: "jsonify"
+    paths:
+    - "/*"
