@@ -26,6 +26,6 @@ app.post('/', async (req, res, next) => {
     }
 })
 
-app.listen('80', () => {
-    console.log('server at 80')
+app.listen(process.env.port || 3000, () => {
+    console.log('server at ',process.env.port || 3000)
 })
